@@ -1,0 +1,5 @@
+{
+  "apiConfigUrl": "http://localhost:8002/config.json",
+  "collectionParameter": "collection",
+  "idParameter": "id"
+}
