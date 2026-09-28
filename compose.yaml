@@ -1,0 +1,38 @@
+# Local development/demo only. Production web serving and deployment belong to the client.
+services:
+  viewer:
+    build: ./frontend
+    image: icgc-viewer-build:local
+    command: ["npm", "run", "preview", "--", "--base", "/viewer/"]
+    ports:
+      - "127.0.0.1:${VIEWER_PORT:-8000}:8080"
+    volumes:
+      - ./frontend/public/config.json:/build/dist/config.json:ro
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8080/viewer/config.json').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      start_period: 5s
+
+  api:
+    build: ./backend
+    image: icgc-api:local
+    ports:
+      - "127.0.0.1:${API_PORT:-8002}:8000"
+    environment:
+      ICGC_PUBLIC_BASE_URL: ${API_PUBLIC_BASE_URL:-http://localhost:8002}
+      ICGC_ANNOTATION_BASE_URL: ${ANNOTATION_BASE_URL:-http://localhost:8081}
+      ICGC_PREFIX_MODE: ${API_PREFIX_MODE:-preserve}
+      ICGC_CORS_ORIGINS: ${API_CORS_ORIGINS:-["http://localhost:8000"]}
+    read_only: true
+    tmpfs: [/tmp]
+
+  # Local stand-in for the static host; enable with --profile demo.
+  annotations:
+    image: icgc-viewer-build:local
+    pull_policy: never
+    profiles: [demo]
+    command: ["npm", "run", "preview", "--", "--base", "/", "--outDir", "/annotations"]
+    ports: ["127.0.0.1:8081:8080"]
+    volumes:
+      - ./data/static:/annotations:ro
