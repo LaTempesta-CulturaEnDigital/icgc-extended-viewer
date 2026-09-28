@@ -1,0 +1,23 @@
+# Copy to config.toml. All deployment URLs are runtime settings; no frontend rebuild is needed.
+public_base_url = "http://localhost:8002"
+upstream_base_url = "https://cartotecadigital.icgc.cat"
+upstream_manifest_template = "/iiif/info/{collection}/{id}/manifest.json"
+manifest_path_template = "/iiif/info/{collection}/{id}/manifest.json"
+# This server belongs to the client. The application does not serve annotation files.
+annotation_base_url = "http://localhost:8081"
+annotation_path_template = "/iiif/annotations/{collection}/{id}/{kind}.json"
+allowed_collections = ["catalunya", "fonscec"]
+# Optional exact old bases for managed references already present in an upstream manifest.
+legacy_annotation_bases = []
+prefix_mode = "preserve"
+cors_origins = ["http://localhost:8000", "http://127.0.0.1:5173"]
+host = "0.0.0.0"
+port = 8000
+trusted_proxy_ips = "127.0.0.1"
+upstream_timeout_seconds = 10
+manifest_cache_ttl_seconds = 300
+cache_max_entries = 256
+upstream_max_bytes = 5000000
+upstream_max_redirects = 3
+# Used only by icgc-publish-annotations; relative to the command's working directory.
+annotation_dir = "data/annotations"

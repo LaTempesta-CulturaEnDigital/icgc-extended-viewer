@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/transcriptions.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/transcriptions.json#annotation-0001",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Carta Esferica\ndesde Cabo Oropesa a Cabo de Creux\npresentada\nal Rey Nuestro Señor\npor Mano\ndel exmo Señor Baylio Frey Don Antonio Valdés,\nSecretario de Estado, y del Despacho Universal de Marina\ny Construida\npor el Brigadier de la Real Armada\nD. Vicente Tofiño de Sn Miguel\nDirector de las Academias de Guardias Marinas\naño 1786\nnota\nLos Numeros de la Sonda son brazas de a 2 varas Castellanas",
+        "paragraph_id": "catalunya_1037_paragraph_001",
+        "confidence": "0.96",
+        "confidence_type": "source_detection_confidence",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:55.501704+00:00",
+        "source_language": "Spanish",
+        "target_language": "Spanish",
+        "source_detection_model": "gemini-3-flash-preview",
+        "source_detection_date": "2026-06-02T10:30:08.941271+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/catalunya:1037/canvas/c0#xywh=874,987,1516,1014"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/transcriptions.json#annotation-0002",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Carta Esferica\ndesde Cabo Oropesa a Cabo de Creux\npresentada\nal Rey Nuestro Señor\npor Mano\ndel exmo Señor Baylio Frey Don Antonio Valdés,\nSecretario de Estado, y del Despacho Universal de Marina\ny Construida\npor el Brigadier de la Real Armada\nD. Vicente Tofiño de Sn. Miguel\nDirector de las Academias de Guardias Marinas\naño 1786\nnota\nLos Numeros de la Sonda son brazas de a 2 varas Castellanas",
+        "paragraph_id": "catalunya_1037_paragraph_001",
+        "confidence": "0.96",
+        "confidence_type": "source_detection_confidence",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:56.185106+00:00",
+        "source_language": "Spanish",
+        "target_language": "Spanish",
+        "source_detection_model": "gemini-3-flash-preview",
+        "source_detection_date": "2026-06-02T10:30:08.941271+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/catalunya:1037/canvas/c0#xywh=874,987,1516,1014"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/transcriptions.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/transcriptions.json#annotation-0001",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[illegible] DE SOLSONA\nPOR\nJ. VILÀS\nEDITADO POR LA TIPOGRAFIA Y LIBRERIA CATÒLICA DE SAN JOSÉ\nde dicha ciudad\nY DEDICADO AL EXCMO E ILMO DTOR\nD. JOSÉ MORGADES Y GILI\nOBISPO DE LA DIOCESIS VICENSE\nY ADMOR APOSTOLICO DE LA DE SOLSONA.\n1891",
+        "paragraph_id": "fonscec_1021_paragraph_001",
+        "confidence": "0.85",
+        "confidence_type": "source_detection_confidence",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:55.833274+00:00",
+        "source_language": "Spanish",
+        "target_language": "Spanish",
+        "source_detection_model": "gemini-3-flash-preview",
+        "source_detection_date": "2026-05-13T18:34:14.043020+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:1021/canvas/c0#xywh=1077,2559,2143,1005"
+    }
+  ]
+}

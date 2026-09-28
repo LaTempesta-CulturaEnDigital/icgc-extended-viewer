@@ -1,0 +1,6 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1019/transcriptions.json",
+  "@type": "sc:AnnotationList",
+  "resources": []
+}

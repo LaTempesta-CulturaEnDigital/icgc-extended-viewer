@@ -1,0 +1,23 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/308/detections.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/308/detections.json#annotation-0001",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "escala gràfica (0.98)",
+        "label": "escala gràfica",
+        "source_label": "graphic_scale",
+        "confidence": "0.98",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.568813+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:308/canvas/c0#xywh=747,7983,1642,164"
+    }
+  ]
+}

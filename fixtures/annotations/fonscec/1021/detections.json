@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/detections.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/detections.json#annotation-0001",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "rosa dels vents (0.9)",
+        "label": "rosa dels vents",
+        "source_label": "compass_rose",
+        "confidence": "0.9",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.439440+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:1021/canvas/c0#xywh=6142,721,161,318"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/detections.json#annotation-0002",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "escut d'armes (0.95)",
+        "label": "escut d'armes",
+        "source_label": "coat_of_arms",
+        "confidence": "0.95",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.439440+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:1021/canvas/c0#xywh=1548,756,1251,936"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/detections.json#annotation-0003",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "paragraphs (0.85)",
+        "label": "paragraphs",
+        "source_label": "paragraphs",
+        "confidence": "0.85",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.439440+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:1021/canvas/c0#xywh=1077,2559,2143,1005"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/detections.json#annotation-0004",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "other_objects (0.8)",
+        "label": "other_objects",
+        "source_label": "other_objects",
+        "confidence": "0.8",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.439440+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:1021/canvas/c0#xywh=8098,6097,768,396"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/detections.json#annotation-0005",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "escala gràfica (0.95)",
+        "label": "escala gràfica",
+        "source_label": "graphic_scale",
+        "confidence": "0.95",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.439440+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:1021/canvas/c0#xywh=8482,7360,1127,275"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/fonscec/1021/detections.json#annotation-0006",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "other_objects (0.7)",
+        "label": "other_objects",
+        "source_label": "other_objects",
+        "confidence": "0.7",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.439440+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/fonscec:1021/canvas/c0#xywh=10699,7652,495,206"
+    }
+  ]
+}

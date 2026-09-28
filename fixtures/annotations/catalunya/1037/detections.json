@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/detections.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/detections.json#annotation-0001",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "paragraphs (0.96)",
+        "label": "paragraphs",
+        "source_label": "paragraphs",
+        "confidence": "0.96",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.608425+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/catalunya:1037/canvas/c0#xywh=874,987,1516,1014"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/detections.json#annotation-0002",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "muntanya (0.94)",
+        "label": "muntanya",
+        "source_label": "mountain",
+        "confidence": "0.94",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.608425+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/catalunya:1037/canvas/c0#xywh=3452,2616,308,162"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/detections.json#annotation-0003",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "muntanya (0.91)",
+        "label": "muntanya",
+        "source_label": "mountain",
+        "confidence": "0.91",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.608425+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/catalunya:1037/canvas/c0#xywh=4394,2190,325,176"
+    },
+    {
+      "@id": "https://icgc.latempesta.cc/iiif/annotations/catalunya/1037/detections.json#annotation-0004",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "muntanya (0.89)",
+        "label": "muntanya",
+        "source_label": "mountain",
+        "confidence": "0.89",
+        "model": "gemini-3-flash-preview",
+        "date": "2026-06-02T10:41:54.608425+00:00"
+      },
+      "on": "https://cdm21055.contentdm.oclc.org/iiif/catalunya:1037/canvas/c0#xywh=1876,3758,282,189"
+    }
+  ]
+}
